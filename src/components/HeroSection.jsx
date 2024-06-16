@@ -1,6 +1,6 @@
 import React from "react";
 import PrimaryButton from "./PrimaryButton";
-import heroImages from "../../public/images/screen-mockups.svg";
+import heroImages from "/images/screen-mockups.svg";
 
 const HeroSection = () => {
   return (

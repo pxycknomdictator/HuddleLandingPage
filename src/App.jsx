@@ -1,8 +1,8 @@
 import React from "react";
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
-import community from "../public/images/icon-communities.svg";
-import message from "../public/images/icon-messages.svg";
+import community from "/images/icon-communities.svg";
+import message from "/images/icon-messages.svg";
 import CommunityStatus from "./components/CommunityStatus";
 
 const App = () => {
