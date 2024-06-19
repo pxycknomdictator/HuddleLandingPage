@@ -19,6 +19,7 @@ import bg_Mobile_Top2 from "/images/bg-top-mobile-2.svg";
 import bg_Mobile_Bottom2 from "/images/bg-bottom-mobile-2.svg";
 
 import FlowingSection from "./components/FlowingSection";
+import Build from "./components/Build";
 
 const App = () => {
   return (
@@ -56,6 +57,7 @@ const App = () => {
         heading="Your Users"
         description="It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately."
       />
+      <Build />
     </>
   );
 };
