@@ -25,4 +25,8 @@
   .btn {
     @apply font-semibold shadow-lg text-white bg-Pink text-xl py-3 px-10 rounded-full;
   }
+
+  #icons svg {
+    font-size: 2rem;
+  }
 }
