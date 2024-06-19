@@ -11,12 +11,19 @@ const Footer = () => {
   return (
     <footer className="text-white">
       <img
+        className="hidden md:block -mb-2"
         width={"100%"}
         src={footer_Desktop_Top_Wave}
         alt={footer_Desktop_Top_Wave}
       />
-      <section className="bg-VeryDarkCyan pt-20">
-        <div className="w-[85%] mx-auto grid grid-cols-2">
+      <img
+        className="block md:hidden -mb-2"
+        width={"100%"}
+        src={footer_Mobile_Top_Wave}
+        alt={footer_Mobile_Top_Wave}
+      />
+      <section className="bg-VeryDarkCyan pt-20 pb-10">
+        <div className="w-[85%] mx-auto flex flex-col-reverse md:grid gap-10 md:grid-cols-2">
           <div>
             <img src={logo} alt={logo} />
             <article className="mt-6">
@@ -36,7 +43,7 @@ const Footer = () => {
               </li>
             </ul>
 
-            <div id="icons" className="flex items-center gap-3 mt-16">
+            <div id="icons" className="flex items-center gap-3 mt-10 md:mt-16">
               <FaFacebookSquare />
               <FaInstagram />
               <FaTwitterSquare />
@@ -50,9 +57,12 @@ const Footer = () => {
               weekly newsletter. we'll never send your span or pass on your
               email address.
             </article>
-            <dir className="flex gap-6 p-0">
-              <input type="text" className="py-2 rounded-md w-[320px]" />
-              <button className="bg-Pink rounded-md text-[1rem] px-8 font-semibold">
+            <dir className="flex flex-col md:flex-row gap-6 p-0">
+              <input
+                type="text"
+                className="py-2 rounded-md w-[100%] md:w-[300px]"
+              />
+              <button className="bg-Pink py-2 md:py-0 rounded-md text-[1rem] px-8 font-semibold">
                 Subscribe
               </button>
             </dir>

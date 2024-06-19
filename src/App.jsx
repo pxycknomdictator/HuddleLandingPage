@@ -27,7 +27,7 @@ const App = () => {
     <>
       <Header />
       <HeroSection />
-      <section className="grid grid-cols-2 mx-auto w-[80%] place-items-center mt-20">
+      <section className="grid grid-cols-1 md:grid-cols-2 gap-14 md:gap-0 mx-auto w-[80%] place-items-center mt-20">
         <CommunityStatus
           community="1.4k+"
           title="Communities Formed"

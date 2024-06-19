@@ -24,9 +24,20 @@
 
   .btn {
     @apply font-semibold shadow-lg text-white bg-Pink text-xl py-3 px-10 rounded-full;
+    transition: all 0.25s ease-in-out;
+
+    &:hover {
+      background: hsl(321, 100%, 78%);
+    }
   }
 
   #icons svg {
     font-size: 2rem;
+    transition: all 0.25s ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+      fill: hsl(191, 96%, 48%);
+    }
   }
 }
