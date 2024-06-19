@@ -1,10 +1,14 @@
 import React from "react";
-import bg_Desktop_Top from "/images/bg-top-desktop-1.svg";
-import bg_Desktop_Bottom from "/images/bg-bottom-desktop-1.svg";
-import bg_Mobile_Top from "/images/bg-top-mobile-1.svg";
-import bg_Mobile_Bottom from "/images/bg-bottom-mobile-1.svg";
 
-const IllustrationSection = ({ illustration, heading, description }) => {
+const IllustrationSection = ({
+  bg_Desktop_Top,
+  bg_Desktop_Bottom,
+  bg_Mobile_Top,
+  bg_Mobile_Bottom,
+  illustration,
+  heading,
+  description,
+}) => {
   return (
     <div className="mt-24">
       <img src={bg_Desktop_Top} width={"100%"} alt={bg_Desktop_Top} />
